@@ -1,0 +1,77 @@
+/* RecipeForm.css */
+
+/* Container styles */
+.recipe-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+
+/* Center align the content within the form */
+.recipe-form-container .form-group {
+    text-align: center;
+  }
+  
+  /* Form styles */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input[type="text"],
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Add Step button */
+  .add-step-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .add-step-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Recipe card styles */
+  .recipe-card {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .recipe-card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .recipe-card h3 {
+    font-size: 20px;
+  }
+  
+  .recipe-card ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .recipe-card img {
+    max-width: 100%;
+    height: auto;
+  }
